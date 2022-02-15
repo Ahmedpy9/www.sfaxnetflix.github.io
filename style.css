@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+        url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+
+
+.main-header{
+    background-color: rgba(0,0,0, .6);
+    background-image: url("https://cdn.discordapp.com/attachments/792058159215673346/942440711826071562/VYbud4A6qGLcDFNngmqT8TUGO1Cg2dn5ZgJyk3WnlQvVNn4kcx3J6OeGQqXNV7OV4mXKQamVdyAnssInq6uJbqW9TwtbaaWVVlpppZVWWmmllVZaaaWVVlpppZWXIP8HsWsEyeHrox0AAAAASUVORK5CYII.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 500px;
+    height: 650;
+    width: 1350px; 
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul{
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255 .3 );
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3 );
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgba(255, 251, 251, 0.938);
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero"
+}
+.band-name-large{
+    font-size: 9em;
+}
+
+.content-section{
+    text-align: center;
+    margin: 7em;
+    height: 100000;
+
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
